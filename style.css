@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'montserrat';
+}
+
+body {
+    background: rgb(32, 35, 56);
+}
+
+.card {
+    width: 360px;
+    background: rgb(61, 61, 83);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.top_section {
+    height: 310px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+
+}
+
+#image_container {
+    width: 360px;
+    height: 240px;
+}
+
+.nav {
+    text-align: center;
+
+}
+
+.nav img {
+    width: 80px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 5px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav img:hover {
+    border-color: rgb(18, 36, 39);
+}
+
+.price {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.product_info {
+    padding: 24px;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgb(20, 16, 16);
+}
